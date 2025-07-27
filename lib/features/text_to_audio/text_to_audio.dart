@@ -1,12 +1,13 @@
+// ignore_for_file: unused_field
+
 import 'dart:io';
 import 'dart:math';
 
+// ignore: unused_shown_name
 import 'package:flutter/foundation.dart' show kDebugMode, kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:get/get_connect/http/src/request/request.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class TextToAudioScreen extends StatefulWidget {

@@ -53,6 +53,7 @@ class UtillScreenMobile extends StatelessWidget {
   }
 }
 
+// ignore: must_be_immutable
 class IsPriumeCheck extends StatelessWidget {
   IsPriumeCheck({super.key});
   bool isPriume = false;
